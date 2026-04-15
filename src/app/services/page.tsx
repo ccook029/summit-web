@@ -170,7 +170,7 @@ export default function ServicesPage() {
 
             <div className="relative h-96 lg:h-[500px] rounded-lg overflow-hidden">
               <Image
-                src="/images/multi compartment 407 (1).jpg"
+                src="/images/multi comparment 407 (1).jpg"
                 alt="Multi compartment tanker for sale"
                 fill
                 className="object-cover"

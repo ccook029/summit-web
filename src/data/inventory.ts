@@ -80,7 +80,7 @@ export const inventory: EquipmentItem[] = [
       "Top & Bottom Loading",
       "Full Walkway",
     ],
-    image: "/images/multi compartment 407 (1).jpg",
+    image: "/images/multi comparment 407 (1).jpg",
     featured: true,
   },
   {
