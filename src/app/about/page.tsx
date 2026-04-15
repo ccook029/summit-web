@@ -81,8 +81,8 @@ export default function AboutPage() {
             </div>
             <div className="relative h-96 lg:h-[500px] rounded-lg overflow-hidden">
               <Image
-                src="https://images.unsplash.com/photo-1586864387967-d02ef85d93e8?w=800&h=600&fit=crop"
-                alt="Summit Equipment yard"
+                src="/images/Tandem 407 (1).jpg"
+                alt="Summit Equipment tanker trailer"
                 fill
                 className="object-cover"
                 sizes="(max-width: 1024px) 100vw, 50vw"
@@ -236,8 +236,8 @@ export default function AboutPage() {
             </div>
             <div className="relative h-80 lg:h-96 rounded-lg overflow-hidden bg-steel">
               <Image
-                src="https://images.unsplash.com/photo-1494412574643-ff11b0a5eb19?w=800&h=600&fit=crop"
-                alt="Strathroy, Ontario area"
+                src="/images/Multi Axle Pneumatic.jpg"
+                alt="Summit Equipment dry bulk trailer"
                 fill
                 className="object-cover"
                 sizes="(max-width: 1024px) 100vw, 50vw"

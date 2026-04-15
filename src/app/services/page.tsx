@@ -170,8 +170,8 @@ export default function ServicesPage() {
 
             <div className="relative h-96 lg:h-[500px] rounded-lg overflow-hidden">
               <Image
-                src="https://images.unsplash.com/photo-1586864387967-d02ef85d93e8?w=800&h=700&fit=crop"
-                alt="Equipment for sale"
+                src="/images/multi compartment 407 (1).jpg"
+                alt="Multi compartment tanker for sale"
                 fill
                 className="object-cover"
                 sizes="(max-width: 1024px) 100vw, 50vw"
@@ -187,8 +187,8 @@ export default function ServicesPage() {
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-16 items-start">
             <div className="relative h-96 lg:h-[500px] rounded-lg overflow-hidden order-2 lg:order-1">
               <Image
-                src="https://images.unsplash.com/photo-1590496793929-36417d3117de?w=800&h=700&fit=crop"
-                alt="Equipment for sale"
+                src="/images/Crude.jpg"
+                alt="Crude oil tanker trailer"
                 fill
                 className="object-cover"
                 sizes="(max-width: 1024px) 100vw, 50vw"
@@ -293,8 +293,8 @@ export default function ServicesPage() {
 
             <div className="relative h-96 lg:h-[500px] rounded-lg overflow-hidden">
               <Image
-                src="https://images.unsplash.com/photo-1494412574643-ff11b0a5eb19?w=800&h=700&fit=crop"
-                alt="Equipment for lease"
+                src="/images/Tandem LPG (1).jpg"
+                alt="LPG tanker trailer for lease"
                 fill
                 className="object-cover"
                 sizes="(max-width: 1024px) 100vw, 50vw"

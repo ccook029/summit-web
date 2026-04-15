@@ -56,27 +56,27 @@ const valueProps = [
 const equipmentTypes = [
   {
     name: "Tanker Trailers",
-    description: "DOT-407, MC-307, DOT-412 and more",
-    image: "https://images.unsplash.com/photo-1586864387967-d02ef85d93e8?w=600&h=400&fit=crop",
+    description: "DOT-407, LPG, crude, and more",
+    image: "/images/Tandem 407 (1).jpg",
     href: "/inventory?category=Tanker+Trailers",
   },
   {
     name: "Dry Bulk Trailers",
-    description: "Pneumatic trailers for dry commodities",
-    image: "https://images.unsplash.com/photo-1590496793929-36417d3117de?w=600&h=400&fit=crop",
+    description: "Pneumatic trailers and end dumps",
+    image: "/images/Multi Axle Pneumatic.jpg",
     href: "/inventory?category=Dry+Bulk+Trailers",
   },
   {
-    name: "Tank Containers",
-    description: "ISO tank containers for intermodal transport",
-    image: "https://images.unsplash.com/photo-1494412574643-ff11b0a5eb19?w=600&h=400&fit=crop",
-    href: "/inventory?category=Tank+Containers",
+    name: "LPG & B-Trains",
+    description: "Propane, butane, and B-Train configurations",
+    image: "/images/B Trains LPG (1).jpg",
+    href: "/inventory?category=Tanker+Trailers",
   },
   {
-    name: "Chassis & Tractors",
-    description: "Container chassis and day cabs",
-    image: "https://images.unsplash.com/photo-1601584115197-04ecc0da31d7?w=600&h=400&fit=crop",
-    href: "/inventory?category=Chassis",
+    name: "Flatbeds & Dry Vans",
+    description: "Step decks, flatbeds, and dry vans",
+    image: "/images/Step Deck.jpg",
+    href: "/inventory?category=Flatbeds+%26+Step+Decks",
   },
 ];
 
@@ -89,8 +89,8 @@ export default function HomePage() {
       <section className="relative min-h-[90vh] flex items-center">
         <div className="absolute inset-0">
           <Image
-            src="https://images.unsplash.com/photo-1586864387967-d02ef85d93e8?w=1920&h=1080&fit=crop"
-            alt="Industrial tanker trailer"
+            src="/images/Quad 407.jpg"
+            alt="Summit Equipment tanker trailer"
             fill
             className="object-cover"
             priority
@@ -273,8 +273,8 @@ export default function HomePage() {
           <div className="relative rounded-2xl overflow-hidden">
             <div className="absolute inset-0">
               <Image
-                src="https://images.unsplash.com/photo-1590496793929-36417d3117de?w=1400&h=500&fit=crop"
-                alt="Transportation fleet"
+                src="/images/B Trains LPG (1).jpg"
+                alt="Summit Equipment fleet"
                 fill
                 className="object-cover"
                 sizes="100vw"
