@@ -59,24 +59,28 @@ const equipmentTypes = [
     description: "DOT-407, LPG, crude, and more",
     image: "/images/Tandem 407 (1).jpg",
     href: "/inventory?category=Tanker+Trailers",
+    position: "object-[center_60%]",
   },
   {
     name: "Dry Bulk Trailers",
     description: "Pneumatic trailers and end dumps",
     image: "/images/Multi Axle Pneumatic.jpg",
     href: "/inventory?category=Dry+Bulk+Trailers",
+    position: "object-[center_70%]",
   },
   {
     name: "LPG & B-Trains",
     description: "Propane, butane, and B-Train configurations",
     image: "/images/B Trains LPG (1).jpg",
     href: "/inventory?category=Tanker+Trailers",
+    position: "object-[center_65%]",
   },
   {
     name: "Flatbeds & Dry Vans",
     description: "Step decks, flatbeds, and dry vans",
     image: "/images/Step Deck.jpg",
     href: "/inventory?category=Flatbeds+%26+Step+Decks",
+    position: "object-[center_70%]",
   },
 ];
 
@@ -175,22 +179,24 @@ export default function HomePage() {
               <Link
                 key={type.name}
                 href={type.href}
-                className="group relative h-72 rounded-lg overflow-hidden"
+                className="group rounded-lg overflow-hidden bg-charcoal-light border border-white/10 hover:border-accent/30 transition-all duration-300"
               >
-                <Image
-                  src={type.image}
-                  alt={type.name}
-                  fill
-                  className="object-cover group-hover:scale-110 transition-transform duration-700"
-                  sizes="(max-width: 640px) 100vw, (max-width: 1024px) 50vw, 25vw"
-                />
-                <div className="absolute inset-0 bg-gradient-to-t from-black/80 via-black/30 to-transparent" />
-                <div className="absolute bottom-0 left-0 right-0 p-6">
-                  <h3 className="text-white font-bold text-xl mb-1">
+                <div className="relative h-48 overflow-hidden">
+                  <Image
+                    src={type.image}
+                    alt={type.name}
+                    fill
+                    className={`object-cover ${type.position} group-hover:scale-105 transition-transform duration-700`}
+                    sizes="(max-width: 640px) 100vw, (max-width: 1024px) 50vw, 25vw"
+                  />
+                  <div className="absolute inset-0 bg-gradient-to-t from-charcoal-light via-transparent to-transparent" />
+                </div>
+                <div className="p-5">
+                  <h3 className="text-white font-bold text-lg mb-1">
                     {type.name}
                   </h3>
-                  <p className="text-gray-300 text-sm">{type.description}</p>
-                  <div className="mt-3 flex items-center gap-1 text-accent text-sm font-medium opacity-0 group-hover:opacity-100 translate-y-2 group-hover:translate-y-0 transition-all duration-300">
+                  <p className="text-gray-400 text-sm mb-3">{type.description}</p>
+                  <div className="flex items-center gap-1 text-accent text-sm font-medium group-hover:gap-2 transition-all duration-300">
                     View Inventory
                     <svg className="w-4 h-4" fill="none" viewBox="0 0 24 24" strokeWidth={2} stroke="currentColor">
                       <path strokeLinecap="round" strokeLinejoin="round" d="M13.5 4.5L21 12m0 0l-7.5 7.5M21 12H3" />
