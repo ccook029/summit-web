@@ -93,8 +93,8 @@ export default function HomePage() {
       <section className="relative min-h-[90vh] flex items-center">
         <div className="absolute inset-0">
           <Image
-            src="/images/Quad 407.jpg"
-            alt="Summit Equipment tanker trailer"
+            src="https://images.unsplash.com/photo-1519003722824-194d4455a60c?w=1920&h=1080&fit=crop&q=80"
+            alt="Industrial transportation fleet"
             fill
             className="object-cover"
             priority
@@ -279,8 +279,8 @@ export default function HomePage() {
           <div className="relative rounded-2xl overflow-hidden">
             <div className="absolute inset-0">
               <Image
-                src="/images/B Trains LPG (1).jpg"
-                alt="Summit Equipment fleet"
+                src="https://images.unsplash.com/photo-1558618666-fcd25c85f82e?w=1400&h=500&fit=crop&q=80"
+                alt="Industrial highway transport"
                 fill
                 className="object-cover"
                 sizes="100vw"
