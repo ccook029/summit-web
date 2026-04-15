@@ -189,7 +189,7 @@ export default function ContactPage() {
                           message: "",
                         });
                       }}
-                      className="px-6 py-2.5 bg-accent/10 text-accent hover:bg-accent hover:text-charcoal font-medium rounded-md transition-colors"
+                      className="px-6 py-2.5 bg-accent/10 text-accent hover:bg-accent hover:text-white font-medium rounded-md transition-colors"
                     >
                       Send Another Message
                     </button>
@@ -346,7 +346,7 @@ export default function ContactPage() {
 
                       <button
                         type="submit"
-                        className="w-full sm:w-auto px-8 py-4 bg-accent hover:bg-accent-dark text-charcoal font-bold rounded-md transition-colors"
+                        className="w-full sm:w-auto px-8 py-4 bg-accent hover:bg-accent-dark text-white font-bold rounded-md transition-colors"
                       >
                         Send Message
                       </button>

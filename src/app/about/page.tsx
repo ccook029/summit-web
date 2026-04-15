@@ -260,7 +260,7 @@ export default function AboutPage() {
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <Link
               href="/contact"
-              className="px-8 py-4 bg-accent hover:bg-accent-dark text-charcoal font-bold rounded-md transition-colors"
+              className="px-8 py-4 bg-accent hover:bg-accent-dark text-white font-bold rounded-md transition-colors"
             >
               Contact Us
             </Link>

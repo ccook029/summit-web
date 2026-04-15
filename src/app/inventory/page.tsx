@@ -182,7 +182,7 @@ export default function InventoryPage() {
                   setSelectedStatus("All");
                   setSearchQuery("");
                 }}
-                className="px-6 py-2.5 bg-accent/10 text-accent hover:bg-accent hover:text-charcoal font-medium rounded-md transition-colors"
+                className="px-6 py-2.5 bg-accent/10 text-accent hover:bg-accent hover:text-white font-medium rounded-md transition-colors"
               >
                 Clear Filters
               </button>

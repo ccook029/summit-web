@@ -1,4 +1,5 @@
 import Link from "next/link";
+import SummitLogo from "./SummitLogo";
 
 const footerLinks = {
   equipment: [
@@ -27,19 +28,9 @@ export default function Footer() {
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-12">
           {/* Brand */}
           <div>
-            <Link href="/" className="flex items-center gap-3 mb-6">
-              <div className="w-10 h-10 bg-accent rounded flex items-center justify-center font-bold text-charcoal text-xl">
-                S
-              </div>
-              <div>
-                <span className="text-xl font-bold text-white tracking-tight">
-                  Summit
-                </span>
-                <span className="text-xl font-light text-gray-400 tracking-tight ml-1">
-                  Equipment
-                </span>
-              </div>
-            </Link>
+            <div className="mb-6">
+              <SummitLogo />
+            </div>
             <p className="text-gray-400 text-sm leading-relaxed mb-6">
               Canada&apos;s trusted source for bulk transportation equipment.
               Buying, selling, and leasing tanker trailers, dry bulk trailers,

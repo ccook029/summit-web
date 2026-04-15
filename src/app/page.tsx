@@ -126,7 +126,7 @@ export default function HomePage() {
             <div className="flex flex-col sm:flex-row gap-4">
               <Link
                 href="/inventory"
-                className="px-8 py-4 bg-accent hover:bg-accent-dark text-charcoal font-bold text-lg rounded-md transition-colors text-center"
+                className="px-8 py-4 bg-accent hover:bg-accent-dark text-white font-bold text-lg rounded-md transition-colors text-center"
               >
                 Browse Inventory
               </Link>
@@ -217,7 +217,7 @@ export default function HomePage() {
             </div>
             <Link
               href="/inventory"
-              className="px-6 py-3 border border-accent text-accent hover:bg-accent hover:text-charcoal font-semibold rounded-md transition-colors"
+              className="px-6 py-3 border border-accent text-accent hover:bg-accent hover:text-white font-semibold rounded-md transition-colors"
             >
               View All Inventory
             </Link>
@@ -293,7 +293,7 @@ export default function HomePage() {
               <div className="flex flex-col sm:flex-row gap-4">
                 <Link
                   href="/contact"
-                  className="px-8 py-4 bg-accent hover:bg-accent-dark text-charcoal font-bold rounded-md transition-colors text-center"
+                  className="px-8 py-4 bg-accent hover:bg-accent-dark text-white font-bold rounded-md transition-colors text-center"
                 >
                   Contact Us Today
                 </Link>

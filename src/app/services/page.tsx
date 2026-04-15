@@ -285,7 +285,7 @@ export default function ServicesPage() {
 
               <Link
                 href="/contact"
-                className="inline-flex mt-8 px-6 py-3 bg-accent/10 text-accent hover:bg-accent hover:text-charcoal font-semibold rounded-md transition-colors"
+                className="inline-flex mt-8 px-6 py-3 bg-accent/10 text-accent hover:bg-accent hover:text-white font-semibold rounded-md transition-colors"
               >
                 Discuss Lease Options
               </Link>
@@ -355,7 +355,7 @@ export default function ServicesPage() {
           </p>
           <Link
             href="/contact"
-            className="inline-flex px-8 py-4 bg-accent hover:bg-accent-dark text-charcoal font-bold text-lg rounded-md transition-colors"
+            className="inline-flex px-8 py-4 bg-accent hover:bg-accent-dark text-white font-bold text-lg rounded-md transition-colors"
           >
             Contact Us Today
           </Link>

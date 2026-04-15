@@ -3,6 +3,7 @@
 import Link from "next/link";
 import { usePathname } from "next/navigation";
 import { useState } from "react";
+import SummitLogo from "./SummitLogo";
 
 const navigation = [
   { name: "Home", href: "/" },
@@ -20,20 +21,7 @@ export default function Header() {
     <header className="fixed top-0 left-0 right-0 z-50 bg-charcoal/95 backdrop-blur-sm border-b border-white/10">
       <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
         <div className="flex h-20 items-center justify-between">
-          {/* Logo */}
-          <Link href="/" className="flex items-center gap-3 group">
-            <div className="w-10 h-10 bg-accent rounded flex items-center justify-center font-bold text-charcoal text-xl group-hover:bg-accent-light transition-colors">
-              S
-            </div>
-            <div>
-              <span className="text-xl font-bold text-white tracking-tight">
-                Summit
-              </span>
-              <span className="text-xl font-light text-gray-400 tracking-tight ml-1">
-                Equipment
-              </span>
-            </div>
-          </Link>
+          <SummitLogo />
 
           {/* Desktop Nav */}
           <nav className="hidden md:flex items-center gap-1">
@@ -55,7 +43,7 @@ export default function Header() {
             })}
             <Link
               href="/contact"
-              className="ml-4 px-5 py-2.5 bg-accent hover:bg-accent-dark text-charcoal font-semibold text-sm rounded-md transition-colors"
+              className="ml-4 px-5 py-2.5 bg-accent hover:bg-accent-dark text-white font-semibold text-sm rounded-md transition-colors"
             >
               Get a Quote
             </Link>
@@ -116,7 +104,7 @@ export default function Header() {
             <Link
               href="/contact"
               onClick={() => setMobileOpen(false)}
-              className="block mt-3 px-4 py-3 bg-accent hover:bg-accent-dark text-charcoal font-semibold text-base rounded-md transition-colors text-center"
+              className="block mt-3 px-4 py-3 bg-accent hover:bg-accent-dark text-white font-semibold text-base rounded-md transition-colors text-center"
             >
               Get a Quote
             </Link>
