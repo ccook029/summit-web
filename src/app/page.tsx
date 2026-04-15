@@ -59,28 +59,28 @@ const equipmentTypes = [
     description: "DOT-407, LPG, crude, and more",
     image: "/images/Tandem 407 (1).jpg",
     href: "/inventory?category=Tanker+Trailers",
-    position: "object-[center_60%]",
+    objectPosition: "center 60%",
   },
   {
     name: "Dry Bulk Trailers",
     description: "Pneumatic trailers and end dumps",
     image: "/images/Multi Axle Pneumatic.jpg",
     href: "/inventory?category=Dry+Bulk+Trailers",
-    position: "object-[center_70%]",
+    objectPosition: "center 65%",
   },
   {
     name: "LPG & B-Trains",
     description: "Propane, butane, and B-Train configurations",
     image: "/images/B Trains LPG (1).jpg",
     href: "/inventory?category=Tanker+Trailers",
-    position: "object-[center_65%]",
+    objectPosition: "center 60%",
   },
   {
     name: "Flatbeds & Dry Vans",
     description: "Step decks, flatbeds, and dry vans",
     image: "/images/Step Deck.jpg",
     href: "/inventory?category=Flatbeds+%26+Step+Decks",
-    position: "object-[center_70%]",
+    objectPosition: "center 70%",
   },
 ];
 
@@ -93,8 +93,8 @@ export default function HomePage() {
       <section className="relative min-h-[90vh] flex items-center">
         <div className="absolute inset-0">
           <Image
-            src="https://images.unsplash.com/photo-1519003722824-194d4455a60c?w=1920&h=1080&fit=crop&q=80"
-            alt="Industrial transportation fleet"
+            src="https://images.unsplash.com/photo-1586864387967-d02ef85d93e8?w=1920&h=1080&fit=crop&q=80"
+            alt="Tanker trailer on highway"
             fill
             className="object-cover"
             priority
@@ -186,7 +186,8 @@ export default function HomePage() {
                     src={type.image}
                     alt={type.name}
                     fill
-                    className={`object-cover ${type.position} group-hover:scale-105 transition-transform duration-700`}
+                    className="object-cover group-hover:scale-105 transition-transform duration-700"
+                    style={{ objectPosition: type.objectPosition }}
                     sizes="(max-width: 640px) 100vw, (max-width: 1024px) 50vw, 25vw"
                   />
                   <div className="absolute inset-0 bg-gradient-to-t from-charcoal-light via-transparent to-transparent" />
@@ -279,8 +280,8 @@ export default function HomePage() {
           <div className="relative rounded-2xl overflow-hidden">
             <div className="absolute inset-0">
               <Image
-                src="https://images.unsplash.com/photo-1558618666-fcd25c85f82e?w=1400&h=500&fit=crop&q=80"
-                alt="Industrial highway transport"
+                src="https://images.unsplash.com/photo-1590496793929-36417d3117de?w=1400&h=500&fit=crop&q=80"
+                alt="Transportation fleet on highway"
                 fill
                 className="object-cover"
                 sizes="100vw"
